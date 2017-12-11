@@ -1,9 +1,11 @@
-from django.conf.urls import url
+from django.urls import path
 from . import views
 from django.contrib import admin
 
 admin.autodiscover()
 
+app_name = 'mkdocs'
+
 urlpatterns = [
-    url(r'^(?P<path>.*)$', views.documentation, name="mkdocs"),
+    path('path:string', views.documentation, name="mkdocs"),
 ]
