@@ -6,8 +6,6 @@ admin.autodiscover()
 
 app_name = 'mkdocs'
 
-
-
 urlpatterns = [
     path('path:string', views.documentation, name="mkdocs"),
 ]
