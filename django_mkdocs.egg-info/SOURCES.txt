@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_mkdocs/__init__.py
+django_mkdocs/app_settings.py
+django_mkdocs/tests.py
+django_mkdocs/urls.py
+django_mkdocs/views.py
+django_mkdocs.egg-info/PKG-INFO
+django_mkdocs.egg-info/SOURCES.txt
+django_mkdocs.egg-info/dependency_links.txt
+django_mkdocs.egg-info/requires.txt
+django_mkdocs.egg-info/top_level.txt
