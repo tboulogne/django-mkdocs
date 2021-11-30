@@ -1,5 +1,5 @@
 from django.http import HttpResponse, Http404, HttpResponseRedirect
-from . import app_settings
+from django_mkdocs import app_settings
 from django.views.static import serve
 import mimetypes
 from django.contrib.auth.decorators import login_required
